@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #inputone ,#btnn{
+    
+       
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+
+        }
+        .pr{
+          font-weight: bold;
+          font-size: 2rem;
+        }
+        .it{
+           font-style: italic;
+            font-size: 2rem;
+            
+        }
+        .ul{
+            text-decoration: underline;
+            font-size: 2rem;
+        }
+        .le{
+            text-align: left;
+            font-size: 2rem;
+         
+
+        }
+        .cr{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .ri{
+            text-align: right;
+            font-size: 2rem;
+        }
+        .jf{
+            text-align: justify;
+           
+        }
+        .button,.italic,.underline,.left,.center,.right,.justify,.select{
+            font-size: 20px;
+            padding: 10px;
+            background-color: aqua;
+            border-radius: 20px;
+
+        }
+        .font ,.p{
+            font-size: 30px;
+            padding: 10px;
+        }
+        .rrp{
+            font-size: 30px;
+            padding: 10px;
+
+        }
+        #select-color{
+            font-size: 40px;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        #color-picker{
+            font-size: 30px;
+            width: 100px;
+            height: 30px;
+        }
+        
+   
+    </style>
+</head>
+<body>
+    <h1 class="price">Price : <span id="price">100</span></h1>
+    <button id="btn">Apply</button>
+
+   <h1>Price:<span id="secondprice">100</span></h1>
+   <input type="text" placeholder="cupon" name="" id="inputone">
+   <br>
+   <button id="btnn">Apply Button</button>
+  
+   <br>
+ <div>
+    <label for="fontsize" class="font">FontSize</label>
+     <select name="" id="fontt" class="rrp">
+        <option value="5" class="p">5</option>
+        <option value="6" class="p">6</option>
+        <option value="7" class="p">7</option>
+        <option value="8" class="p">8</option>
+        <option value="9" class="p">9</option>
+        <option value="10" class="p" selected>10</option>
+        <option value="11" class="p">11</option>
+        <option value="12" class="p">12</option>
+        <option value="13" class="p">13</option>
+        <option value="14" class="p">14</option>
+        <option value="15" class="p">15</option>
+    </select>
+    <h1 class="rrr">This is the go of the world</h1>
+    <button class="select">Select</button>
+</div>
+<p class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, mollitia.</p>
+    <br>
+    <button class="button">Bold</button>
+    <button class="italic">Italic</button>
+    <button class="underline">Underline</button> 
+    <button class="left">Left</button>
+    <button class="center">Center</button>
+    <button class="right">Right</button>
+    <button class="justify">Justify</button>
+     <br>
+     <br>
+  
+    <label for="color-picker" id="select-color">Select a Color</label>
+    <input type="color" id="color-picker" name="">
+    <h1 id="color-code"></h1>
+    <script src="index.js"></script>
+</body>
+</html>
